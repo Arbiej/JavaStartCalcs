@@ -1,0 +1,20 @@
+class Calculate {
+    public static void main(String[] args) {
+double x=15;
+double y=5.5;
+
+        Calculator calculator = new Calculator();
+
+        double add = calculator.add(x, y);
+        System.out.println(x+" + " + y+"="+ add);
+        double sub = calculator.substract(x, y);
+        System.out.println(x+" - " + y+"="+ sub);
+        double multi = calculator.multiply(x, y);
+        System.out.println(x+" * " + y+"="+ multi);
+        double div = calculator.divide(x, y);
+        System.out.println(x+" / " + y+"="+ div);
+
+
+
+    }
+}
