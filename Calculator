@@ -1,0 +1,19 @@
+class Calculator {
+
+    double add(double a , double b){
+        return a+b;
+    }
+    double substract(double a, double b){
+        double diff=a-b;
+        return diff;
+    }
+    double multiply(double a , double b){
+        double product=a* b;
+        return product;
+        }
+        double divide(double a , double b){
+        double quotient=a/b;
+        return quotient;
+        }
+}
+
